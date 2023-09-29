@@ -165,7 +165,7 @@ export const CreateChannelModal = () => {
               />
             </div>
             <DialogFooter className="bg-gray-100 px-6 py-4">
-              <Button variant="default" disabled={isLoading}>
+              <Button variant="primary" disabled={isLoading}>
                 Create
               </Button>
             </DialogFooter>
