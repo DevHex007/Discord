@@ -1,4 +1,4 @@
-"use client";
+lt"use client";
 
 import axios from "axios";
 import * as z from "zod";
@@ -134,7 +134,7 @@ export const EditServerModal = () => {
               />
             </div>
             <DialogFooter className="bg-gray-100 px-6 py-4">
-              <Button variant="primary" disabled={isLoading}>
+              <Button variant="default" disabled={isLoading}>
                 Save
               </Button>
             </DialogFooter>
